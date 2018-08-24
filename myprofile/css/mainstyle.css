@@ -1,0 +1,12 @@
+﻿body {
+    background-color:red;
+}
+.bu{
+    background-color:green;
+    width:100px;
+}
+#maincover{
+    background-color:yellow;
+   margin:auto;
+    width:100%;
+}
