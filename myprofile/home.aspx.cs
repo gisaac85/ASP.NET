@@ -11,7 +11,7 @@ namespace myprofile
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text =Request.QueryString["name"] + " And Your account is: "+Request.QueryString["type"];
         }
     }
 }

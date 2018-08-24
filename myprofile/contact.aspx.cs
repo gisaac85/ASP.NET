@@ -16,7 +16,8 @@ namespace myprofile
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/home.aspx");
+            Response.Redirect("~/home.aspx?name="+TextBox1.Text+"&type=admin");
+
         }
     }
 }
