@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="myprofile.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>my profile</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/mainstyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="cover">Welcome To My Page 
+            <br />
+            <nav>
+               <a href="home.aspx" target="_self" > Home</a>
+               <a href="contact.aspx" target="_self"">Contact</a> 
+            </nav>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div id="copyright">@ISAAC ALL RIGHTS COPY</div>
+    </form>
+</body>
+</html>
