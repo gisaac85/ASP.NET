@@ -11,12 +11,12 @@ namespace myprofile
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["name"] = "ISAAC";
+          //  Session["name"] = "ISAAC";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/home.aspx?name="+TextBox1.Text+"&type=admin");
+          //  Response.Redirect("~/home.aspx?name="+TextBox1.Text+"&type=admin");
 
         }
     }

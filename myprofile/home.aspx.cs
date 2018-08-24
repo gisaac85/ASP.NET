@@ -11,8 +11,9 @@ namespace myprofile
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //passing two Query Strings name & type
             // Label1.Text =Request.QueryString["name"] + " And Your account is: "+Request.QueryString["type"];
-            Label1.Text = Convert.ToString(Session["name"]);
+            Label1.Text = Session.SessionID;
         }
     }
 }
