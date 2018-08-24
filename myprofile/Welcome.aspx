@@ -65,7 +65,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style1" colspan="2" style="width: 20%">
-            <asp:Button ID="Button1" runat="server" Text="المجموع" CssClass="ButtonStyle" OnClick="Button1_Click1" Width="100px" />
+            <asp:Button ID="Button1" runat="server" Text="جمع" CssClass="ButtonStyle" OnClick="Button1_Click1" Width="100px" />
 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="laresult" runat="server">laresult</asp:Label>
