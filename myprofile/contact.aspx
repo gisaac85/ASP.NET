@@ -12,6 +12,7 @@
     Address: xxx -fdfsf-dsfdsf</p>
     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     <p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Go To HOME" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="<%$ Resources:Resource1,home %>" />
     </p>
+   <h1> <%= Resources.Resource1.home %></h1>
 </asp:Content>
