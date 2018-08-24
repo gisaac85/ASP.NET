@@ -11,7 +11,9 @@ namespace myprofile
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session.Timeout = 1;
+            if (Session["name"] == null)
+                Response.Redirect("https://github.com/gisaac85");
         }
     }
 }

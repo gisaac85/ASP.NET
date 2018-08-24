@@ -11,7 +11,7 @@ namespace myprofile
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["name"] = "ISAAC";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
